@@ -5,10 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class ProductDto {
-    private int Id;
+    private int id;
     private int productId;
     private String productName;
     private String description;
