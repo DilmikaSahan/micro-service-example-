@@ -11,5 +11,5 @@ public class OrderDto {
     private int id;
     private int itemId;
     private String orderDate;
-    protected int amount;
+    private int amount;
 }

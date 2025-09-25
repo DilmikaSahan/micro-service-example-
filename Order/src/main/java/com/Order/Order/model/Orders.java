@@ -10,10 +10,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Order {
+public class Orders {
     @Id
     private int id;
     private int itemId;
     private String orderDate;
-    protected int amount;
+    private int amount;
 }
